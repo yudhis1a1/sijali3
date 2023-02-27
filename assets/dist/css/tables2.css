@@ -1,0 +1,214 @@
+.cust-table2 {
+  width: 100%;
+  margin-bottom: 1em;
+
+}
+
+.cust-table2 thead th {
+  background: #F9FAFB;
+  
+}
+
+.cust-table2 th, .cust-table2 td {
+	padding: 8px;
+	line-height: 1.5em;
+	vertical-align: top;
+	border-top: none;
+	
+}
+
+.cust-table2 thead th {
+	vertical-align: bottom;
+	font-weight: 700;
+	  font-family: monotype corsiva;
+}
+
+.cust-table2 caption + thead tr:first-child th, .cust-table2 caption + thead tr:first-child td, .cust-table2 colgroup + thead tr:first-child th, .cust-table2 colgroup + thead tr:first-child td, .cust-table2 thead:first-child tr:first-child th, .cust-table2 thead:first-child tr:first-child td {
+	border-top: 0;
+	
+}
+
+.cust-table2 tbody + tbody {
+	border-top: none;
+	font-family: monotype corsiva;
+}
+
+.cust-table2 .cust-table2 { 
+	background-color: #fff;
+	font-family: monotype corsiva;
+}
+
+.cust-table2-condensed th, .cust-table2-condensed td {
+	padding: 4px 5px; 
+	
+	}
+
+.cust-table2-bordered {
+	border: none;
+	border-collapse: separate;
+	border-left: 0;
+	border-radius: 3px;
+	font-family: Times New Roman;
+}
+
+.cust-table2-bordered th, .cust-table2-bordered td {
+	border-left: none;
+	font-family: Times New Roman;
+}
+.cust-table2-bordered caption + thead tr:first-child th, .cust-table2-bordered caption + tbody tr:first-child th, .cust-table2-bordered caption + tbody tr:first-child td, .cust-table2-bordered colgroup + thead tr:first-child th, .cust-table2-bordered colgroup + tbody tr:first-child th, .cust-table2-bordered colgroup + tbody tr:first-child td, .cust-table2-bordered thead:first-child tr:first-child th, .cust-table2-bordered tbody:first-child tr:first-child th, .cust-table2-bordered tbody:first-child tr:first-child td {
+    border-top: 0;
+	
+}
+  .cust-table2-bordered thead:first-child tr:first-child > th:first-child, .cust-table2-bordered tbody:first-child tr:first-child > td:first-child, .cust-table2-bordered tbody:first-child tr:first-child > th:first-child {
+    border-top-left-radius: 3px; 
+	}
+  .cust-table2-bordered thead:first-child tr:first-child > th:last-child, .cust-table2-bordered tbody:first-child tr:first-child > td:last-child, .cust-table2-bordered tbody:first-child tr:first-child > th:last-child {
+    border-top-right-radius: 3px; }
+  .cust-table2-bordered thead:last-child tr:last-child > th:first-child, .cust-table2-bordered tbody:last-child tr:last-child > td:first-child, .cust-table2-bordered tbody:last-child tr:last-child > th:first-child, .cust-table2-bordered tfoot:last-child tr:last-child > td:first-child, .cust-table2-bordered tfoot:last-child tr:last-child > th:first-child {
+    border-bottom-left-radius: 3px; }
+  .cust-table2-bordered thead:last-child tr:last-child > th:last-child, .cust-table2-bordered tbody:last-child tr:last-child > td:last-child, .cust-table2-bordered tbody:last-child tr:last-child > th:last-child, .cust-table2-bordered tfoot:last-child tr:last-child > td:last-child, .cust-table2-bordered tfoot:last-child tr:last-child > th:last-child {
+    border-bottom-right-radius: 3px; }
+  .cust-table2-bordered tfoot + tbody:last-child tr:last-child td:first-child {
+    border-bottom-left-radius: 0; }
+  .cust-table2-bordered tfoot + tbody:last-child tr:last-child td:last-child {
+    border-bottom-right-radius: 0; }
+  .cust-table2-bordered caption + thead tr:first-child th:first-child, .cust-table2-bordered caption + tbody tr:first-child td:first-child, .cust-table2-bordered colgroup + thead tr:first-child th:first-child, .cust-table2-bordered colgroup + tbody tr:first-child td:first-child {
+    border-top-left-radius: 3px; }
+  .cust-table2-bordered caption + thead tr:first-child th:last-child, .cust-table2-bordered caption + tbody tr:first-child td:last-child, .cust-table2-bordered colgroup + thead tr:first-child th:last-child, .cust-table2-bordered colgroup + tbody tr:first-child td:last-child {
+    border-top-right-radius: 3px; }
+
+.cust-table2-striped tr:nth-child(odd) > td {
+  background-color: none; }
+
+.cust-table2-hover tr:hover > td {
+  background-color:none;
+  border-left-color: none;
+  color: none; }
+  .cust-table2-hover tr:hover > td:first-child {
+    border-left: none; }
+
+.text-center {
+  text-align: center; }
+  
+.text-left {
+  text-align: left; }
+
+.text-right {
+  text-align: right; }
+
+.text-justify {
+  text-align: justify; }
+
+.uppercase {
+  text-transform: uppercase; }
+  
+/* table2s */
+/**
+ * Remove most spacing between table cells.
+ */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+.cust-print-table2 {
+  width: 100%;
+}
+
+.cust-print-table2 thead th {
+  background: none;
+}
+
+.cust-print-table2 th, .cust-print-table2 td {
+  padding-left: 8px;
+  vertical-align: top;
+  border-top: none;
+ font-family: Times New Roman;
+ font-size: 16px;
+}
+
+.btop th, .btop td {
+  border-top: none;
+   font-family: Times New Roman;
+   font-size: 15px;
+}
+
+.bsmall th, .bsmall td {
+  border-top: none;
+   font-family: Times New Roman;
+   font-size: 22px;
+   line-height:25px;
+}
+
+.cust-print-table2 thead th {
+  vertical-align: bottom;
+  font-weight: 700;
+    font-family: monotype corsiva;
+	
+}
+
+.cust-print-table2 caption + thead tr:first-child th, .cust-print-table2 caption + thead tr:first-child td, .cust-print-table2 colgroup + thead tr:first-child th, .cust-print-table2 colgroup + thead tr:first-child td, .cust-print-table2 thead:first-child tr:first-child th, .cust-print-table2 thead:first-child tr:first-child td {
+  border-top: 0;
+
+}
+
+.cust-print-table2 tbody + tbody {
+  border-top: none;
+  
+}
+
+.cust-print-table2 .cust-print-table2 { 
+  background-color: #fff;
+}
+
+.cust-print-table2-condensed th, .cust-print-table2-condensed td {
+   }
+
+.cust-print-table2-bordered {
+  border: none;
+  border-collapse: separate;
+  border-left: 0;
+  border-radius: 3px;
+}
+
+.cust-print-table2-bordered th, .cust-print-table2-bordered td {
+  border-left: 1px solid #ddd;
+  
+}
+
+.cust-print-table2-bordered caption + thead tr:first-child th, .cust-print-table2-bordered caption + tbody tr:first-child th, .cust-print-table2-bordered caption + tbody tr:first-child td, .cust-print-table2-bordered colgroup + thead tr:first-child th, .cust-print-table2-bordered colgroup + tbody tr:first-child th, .cust-print-table2-bordered colgroup + tbody tr:first-child td, .cust-print-table2-bordered thead:first-child tr:first-child th, .cust-print-table2-bordered tbody:first-child tr:first-child th, .cust-print-table2-bordered tbody:first-child tr:first-child td {
+    border-top: 0;
+	
+}
+  .cust-print-table2-bordered thead:first-child tr:first-child > th:first-child, .cust-print-table2-bordered tbody:first-child tr:first-child > td:first-child, .cust-print-table2-bordered tbody:first-child tr:first-child > th:first-child {
+    border-top-left-radius: 3px; }
+  .cust-print-table2-bordered thead:first-child tr:first-child > th:last-child, .cust-print-table2-bordered tbody:first-child tr:first-child > td:last-child, .cust-print-table2-bordered tbody:first-child tr:first-child > th:last-child {
+    border-top-right-radius: 3px; }
+  .cust-print-table2-bordered thead:last-child tr:last-child > th:first-child, .cust-print-table2-bordered tbody:last-child tr:last-child > td:first-child, .cust-print-table2-bordered tbody:last-child tr:last-child > th:first-child, .cust-print-table2-bordered tfoot:last-child tr:last-child > td:first-child, .cust-print-table2-bordered tfoot:last-child tr:last-child > th:first-child {
+    border-bottom-left-radius: 3px; }
+  .cust-print-table2-bordered thead:last-child tr:last-child > th:last-child, .cust-print-table2-bordered tbody:last-child tr:last-child > td:last-child, .cust-print-table2-bordered tbody:last-child tr:last-child > th:last-child, .cust-print-table2-bordered tfoot:last-child tr:last-child > td:last-child, .cust-print-table2-bordered tfoot:last-child tr:last-child > th:last-child {
+    border-bottom-right-radius: 3px; }
+  .cust-print-table2-bordered tfoot + tbody:last-child tr:last-child td:first-child {
+    border-bottom-left-radius: 0; }
+  .cust-print-table2-bordered tfoot + tbody:last-child tr:last-child td:last-child {
+    border-bottom-right-radius: 0; }
+  .cust-print-table2-bordered caption + thead tr:first-child th:first-child, .cust-print-table2-bordered caption + tbody tr:first-child td:first-child, .cust-print-table2-bordered colgroup + thead tr:first-child th:first-child, .cust-print-table2-bordered colgroup + tbody tr:first-child td:first-child {
+    border-top-left-radius: 3px; }
+  .cust-print-table2-bordered caption + thead tr:first-child th:last-child, .cust-print-table2-bordered caption + tbody tr:first-child td:last-child, .cust-print-table2-bordered colgroup + thead tr:first-child th:last-child, .cust-print-table2-bordered colgroup + tbody tr:first-child td:last-child {
+    border-top-right-radius: 3px; }
+
+.cust-print-table2-striped tr:nth-child(odd) > td {
+  background-color: #f7f7f7; }
+
+.cust-print-table2-hover tr:hover > td {
+  background-color: #5faee3;
+  border-left-color: #5faee3;
+  color: #fff; }
+  .cust-print-table2-hover tr:hover > td:first-child {
+    border-left: 1px solid #ddd; }

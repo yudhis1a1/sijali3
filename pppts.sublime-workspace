@@ -1,0 +1,379 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tang",
+				"tanggal_surat"
+			],
+			[
+				"memo",
+				"memo"
+			],
+			[
+				"dis",
+				"disposisi"
+			],
+			[
+				"use",
+				"user_id"
+			],
+			[
+				"mod",
+				"ModSrtDisposisi"
+			],
+			[
+				"no",
+				"nosurat"
+			],
+			[
+				"cari",
+				"carisurat"
+			],
+			[
+				"strto",
+				"strtoupper"
+			],
+			[
+				"srt",
+				"srtdisposisi"
+			],
+			[
+				"mo",
+				"modsurat"
+			],
+			[
+				"base",
+				"base_url"
+			],
+			[
+				"mode",
+				"Model"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/xampp/htdocs/silemkerma/application/modules/officer/controllers/officer.php",
+			"settings":
+			{
+				"buffer_size": 17978,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Convert Case: Upper Case"
+			],
+			[
+				"Snippet: ",
+				"Snippet: elseif …"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/silemkerma/application/.htaccess",
+		"/C/xampp/htdocs/silemkerma/application/config/config.php",
+		"/C/xampp/htdocs/silemkerma/application/config/database.php",
+		"/D/htdocs/silemkerma/application/config/config.php",
+		"/C/xampp/htdocs/silemkerma/index.php",
+		"/D/2017/pppts/codeigniter_v3.1.3_(hmvc)_my_loader.php.php",
+		"/D/htdocs/silemkerma/application/config/database.php",
+		"/D/htdocs/silemkerma/application/config/routes.php",
+		"/C/xampp/htdocs/silemkerma/.htaccess",
+		"/D/htdocs/silemkerma/index.php",
+		"/C/xampp/htdocs/pppts/index.php",
+		"/C/xampp/htdocs/pppts/common/config/main-local.php",
+		"/C/xampp/htdocs/pppts/frontend/web/.htaccess",
+		"/G/AdminLTE-2.3.0/README.md",
+		"/C/xampp/htdocs/persuratan-master/application/models/web_model.php",
+		"/C/xampp/htdocs/silemkerma/application/modules/surat/controllers/file.php",
+		"/C/xampp/htdocs/silemkerma/application/modules/surat/controllers/skpendirian.php",
+		"/C/xampp/htdocs/silemkerma/application/modules/surat/controllers/skprodi.php",
+		"/C/xampp/htdocs/silemkerma/application/modules/surat/controllers/srtdisposisi.php",
+		"/C/Users/Hamid/Desktop/pro_registrasi_prodi.sql",
+		"/D/data/syifa/barbie/Barbie Princess Charm School (2011) HQ DVDRip X264 Team MJY MovieJockeY.CoM.avi",
+		"/C/xampp/htdocs/silemkerma/application/modules/surat/models/modsrtsuratmasuk.php",
+		"/D/baak/tesvb.vb",
+		"/C/xampp/htdocs/silemkermaadh/application/config/config.php",
+		"/C/xampp/php/php.ini",
+		"/C/Users/Hamid/Music/Playlists/UK40 oktober.wpl",
+		"/C/BDE32/FILM/animasi/Frozen/Frozen.avi",
+		"/C/meta3/meta.dat",
+		"/C/meta3/iqsystem.db",
+		"/C/xampp/htdocs/silemkerma/application/modules/surat/models/modsrtdisposisi.php",
+		"/C/xampp/htdocs/silemkerma/application/modules/surat/views/srt_disposisi.php",
+		"/C/xampp/htdocs/silemkerma/application/modules/surat/views/cari/lihatdisposisi.php",
+		"/C/xampp/htdocs/silemkerma/application/modules/surat/controllers/srtsuratmasuk.php",
+		"/C/xampp/htdocs/silemkerma/application/modules/surat/views/srt_disposisikan.php",
+		"/C/xampp/htdocs/silemkerma/application/modules/surat/views/srt_add_surat_masuk.php",
+		"/D/master/adapter/Navicat Premium v11.0.17 x86_www.remo-xp.com/license_file",
+		"/C/xampp/htdocs/silemkerma/application/modules/surat/views/srt_surat_masuk.php",
+		"/C/xampp/htdocs/silemkerma/application/modules/surat/views/carisurat.php",
+		"/C/xampp/htdocs/silemkerma/application/modules/surat/views/cari/caririwayat.php",
+		"/C/xampp/htdocs/silemkerma/application/modules/surat/controllers/tes.php",
+		"/C/xampp/htdocs/silemkerma/application/helpers/template_helper.php",
+		"/C/xampp/htdocs/silemkerma/application/modules/surat/models/ModSrtDisposisi.php",
+		"/C/xampp/htdocs/silemkerma/application/modules/surat/views/tamp.php",
+		"/C/xampp/htdocs/silemkerma/application/libraries/sessionutility.php",
+		"/C/Users/Hamid/AppData/Roaming/Sublime Text 3/Packages/User/PHP.sublime-settings",
+		"/C/Users/Hamid/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Hamid/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/xampp/htdocs/evaluasi/application/controllers/evaluasiprodi.php",
+		"/C/xampp/frmRegPendirian_ket.php",
+		"/C/xampp/htdocs/evaluasi/application/controllers/detailevaluasi.php",
+		"/C/xampp/htdocs/silemkerma/application/controllers/portal.php",
+		"/C/xampp/htdocs/evaluasi/application/models/crud.php",
+		"/D/data/syifa/syifa/Huge Collection Of General Computer Ebooks/Ebooks/Over 1100 General Computer Ebooks.md5",
+		"/D/aplikasi/Hello VBNetxxx/Hello VBNet/modulhello.vb",
+		"/F/My_Girl_10.ass",
+		"/D/aplikasi/Hello VBNet/Hello VBNet/App.config",
+		"/D/aplikasi/Hello VBNet/Hello VBNet/Hello VBNet.vbproj.user",
+		"/D/aplikasi/Hello VBNet/Hello VBNet/Hello VBNet.vbproj",
+		"/D/aplikasi/Hello VBNet/Hello VBNet.sln",
+		"/C/xampp/htdocs/kps/application/models/modevaluator.php",
+		"/C/xampp/htdocs/evaluasi/application/views/index.html",
+		"/C/xampp/htdocs/kps/.htaccess",
+		"/C/xampp/htdocs/ditbaga/.htaccess",
+		"/C/xampp/htdocs/ditbaga/application/models/modevaluator.php",
+		"/C/xampp/htdocs/evaluasi/application/config/autoload.php",
+		"/C/xampp/htdocs/evaluasi/application/helpers/template_helper.php",
+		"/C/xampp/htdocs/evaluasi/application/helpers/template_helper1.php",
+		"/C/xampp/htdocs/ditbaga/application/views/css/layout/sidebar1.php",
+		"/C/xampp/htdocs/ditbaga/application/views/index.php",
+		"/C/xampp/htdocs/ditbaga/application/views/css/layout/header.php",
+		"/C/xampp/htdocs/ditbaga/application/config/config.php",
+		"/C/xampp/htdocs/ditbaga/application/config/routes.php",
+		"/C/xampp/htdocs/ditbaga/application/controllers/secure.php",
+		"/C/xampp/htdocs/ditbaga/application/views/sign_in.php",
+		"/C/xampp/htdocs/ditbaga/application/libraries/sessionutility.php",
+		"/C/xampp/htdocs/ditbaga/application/controllers/main.php",
+		"/C/xampp/htdocs/ditbaga/application/views/welcome_message.php",
+		"/C/xampp/htdocs/ditbaga/application/models/modevaluasiditbaga.php",
+		"/C/xampp/htdocs/ditbaga/application/models/crud.php",
+		"/C/xampp/htdocs/ditbaga/application/models/modevaluasikeuangan.php",
+		"/C/xampp/htdocs/ditbaga/application/models/modevaluasihukum.php",
+		"/C/xampp/htdocs/evaluasi/application/views/evaluasi/form_login.php",
+		"/C/xampp/htdocs/evaluasi/application/models/modevaluator.php",
+		"/C/xampp/htdocs/evaluasi/application/controllers/admin.php",
+		"/C/xampp/htdocs/evaluasi/application/config/routes.php",
+		"/C/xampp/htdocs/evaluasi/application/views/css/layout/topmenu.php",
+		"/C/xampp/htdocs/evaluasi/application/views/css/layout/sidebar1.php",
+		"/C/xampp/htdocs/evaluasi/application/views/css/layout/header.php",
+		"/C/xampp/htdocs/evaluasi/application/views/evaluasi/excel_detail_proposal.php",
+		"/C/xampp/htdocs/evaluasi/application/views/evaluasi/excel_list_evaluasi.php",
+		"/C/xampp/htdocs/evaluasi/application/views/evaluasi/list_proposal.php",
+		"/C/xampp/htdocs/evaluasi/application/controllers/evaluasi.php",
+		"/C/xampp/htdocs/evaluasi/application/views/css/index.html",
+		"/C/xampp/htdocs/evaluasi/application/views/css/styles_admin.css",
+		"/C/xampp/htdocs/evaluasi/application/views/evaluasi/index.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\xampp\\htdocs\\evaluasi"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"max",
+			"set",
+			"dtsurat",
+			"disposisi",
+			"moduser",
+			"keyword",
+			"font",
+			"obj",
+			"strto",
+			"srtsuratmasuk",
+			"StatusUsulan",
+			"TglEvaluasi",
+			"NmPti",
+			"KdPti",
+			"KdEvaluator",
+			"JnsUsulan",
+			"IdEvaluasi",
+			"type=\"text/css\" href=\"",
+			"template_helper",
+			"template_helper.php",
+			"template",
+			"login",
+			"form_validation",
+			"topmenu",
+			"profil evaluator",
+			"daftar hasil evaluasi",
+			"F5 terunggah",
+			"dispa"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"surat",
+			"row",
+			"srtdisposisi",
+			"perihal",
+			"tgl_surat",
+			"nomor",
+			"asal_surat",
+			"no_tu",
+			"tgl_masuk",
+			"no_agenda",
+			"type=\"text/css\" href=\"<? echo base_url()?>/css/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/xampp/htdocs/silemkerma/application/modules/officer/controllers/officer.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17978,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3132.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "pppts.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 223.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

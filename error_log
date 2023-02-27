@@ -1,0 +1,9 @@
+[10-Jan-2018 10:44:22 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/cpanel/ea-php56/root/usr/lib64/php/modules/gd.so' - libX11.so.6: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[11-Jan-2018 09:20:49 UTC] PHP Warning:  POST Content-Length of 11396980 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[12-Jan-2018 02:49:32 UTC] PHP Fatal error:  Call to a member function get_by_id() on null in /home/laminfokomor/public_html/salam/application/modules/asesor/controllers/asesor.php on line 108
+[12-Jan-2018 02:51:30 UTC] PHP Fatal error:  Call to a member function get_by_id() on null in /home/laminfokomor/public_html/salam/application/modules/asesor/controllers/asesor.php on line 108
+[12-Jan-2018 07:59:19 UTC] PHP Fatal error:  Out of memory (allocated 2621440) (tried to allocate 49152 bytes) in /home/laminfokomor/public_html/salam/application/libraries/datamapper.php on line 506
+[13-Jan-2018 02:55:40 UTC] PHP Fatal error:  Out of memory (allocated 262144) (tried to allocate 12288 bytes) in /home/laminfokomor/public_html/salam/application/third_party/datamapper/bootstrap.php on line 66
+[13-Jan-2018 03:07:02 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/cpanel/ea-php56/root/usr/lib64/php/modules/mbstring.so' - /opt/cpanel/ea-php56/root/usr/lib64/php/modules/mbstring.so: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[13-Jan-2018 03:07:02 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/cpanel/ea-php56/root/usr/lib64/php/modules/mcrypt.so' - libltdl.so.7: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[13-Jan-2018 03:07:02 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/cpanel/ea-php56/root/usr/lib64/php/modules/mcrypt.so' - libmcrypt.so.4: cannot map zero-fill pages: Cannot allocate memory in Unknown on line 0
