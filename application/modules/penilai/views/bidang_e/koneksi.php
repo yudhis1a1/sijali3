@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <?php
 $server = "localhost";
-$username = "jafung_user";
-$password = "jafung_dikti19#!";
+$username = "root";
+$password = "";
 $database = "db_jafung";
 $tanggal = date("Y-m-d H:i:s");
 $entries = 3;
