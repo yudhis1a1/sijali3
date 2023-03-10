@@ -189,15 +189,7 @@ if ($usulan->jabatan_usulan_no == '6' || $usulan->jabatan_usulan_no == '3') {
 								</tr>
 							</tbody>
 						</table>
-						<?php if ($usulan_status_id <> '5' && $usulan_status_id <> '6') {
-						} else { ?>
-							<center>
-								<a href="<?= base_url() ?>penilai/penilai_dupak/hapus_a0004/<?= $q_dupak->dupak_no ?>/<?= $q_dupak->usulan_no ?>" class="btn btn-danger">
-									RESET PENILAIAN
-								</a>&nbsp;&nbsp;&nbsp;
-								<button type="submit" class="btn btn-success">SIMPAN PENILAIAN</button>
-							</center>
-						<?php } ?>
+
 					</form>
 
 				</div>

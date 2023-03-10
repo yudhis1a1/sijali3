@@ -320,7 +320,7 @@ FROM rwy_pak a WHERE a.`no_usulan`='$no';")->row();
                 <tr>
                   <td class="text-center">4.</td>
                   <td colspan="3">NIP. / No. KARPEG</td>
-                  < colspan="5"><?= $nip ?> / <input type="text" name="karpeg" value="<?= $karpeg ?>" style="width: 200px;"></td>
+                  <td colspan="5"><input type="text" name="nip" value="<?= $nip ?>"> / <input type="text" name="karpeg" value="<?= $karpeg ?>" style="width: 200px;"></td>
                 </tr>
                 <tr>
                   <td class="text-center">5.</td>

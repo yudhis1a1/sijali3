@@ -126,9 +126,7 @@ error_reporting(0);
 } 
 	
   $yx=date("Y",strtotime($tgltmt));
-	  if (substr($tgltmt,5,5)=='01-02' || substr($tgltmt,5,5)=='02-01'){
-	      $tgltmt=$yx.'-01-01';
-	  }	
+	
 $tgltmtdiff=$tgltmt;
           $tgl_tmt = gfDateStandart($tgltmt);
           $tgl_terhitung = $tgl_tmt;

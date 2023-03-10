@@ -256,7 +256,7 @@ include "koneksi.php";
 												<?php } ?>
 
 												<?php
-												if ($r_pend['id_jenj_didik'] == '40' || $r_pend['id_jenj_didik'] == '37') {
+												if ($r_pend['id_jenj_didik'] == '40' || $r_pend['id_jenj_didik'] == '37' || $r_pend['id_jenj_didik'] == '41') {
 													$nama_file = "disertasi";
 												?>
 													<br><br>

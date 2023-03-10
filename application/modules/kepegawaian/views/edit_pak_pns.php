@@ -123,9 +123,7 @@ $tgltmt=date('Y-m-d', strtotime('+1 days', strtotime($hari2->hari)));
 }
 
 //$tgltmt=date('Y-m-d', strtotime('+1 days', strtotime($tgl_terakhir)));
-	  if ((date("m", strtotime($tgltmt))==1)  && (date("d", strtotime($tgltmt))==2)){
-	      $tgltmt=date('Y-m-d', strtotime('-1 days', strtotime($tgltmt)));
-	  }
+
 $tgltmtdiff=$tgltmt;
 $tgl_tmt=gfDateStandart($tgltmt);
 $tgl_terhitung= $tgl_tmt;

@@ -261,6 +261,7 @@ if ($jenjang_id_lama == '0' && $jenjang_id_lama <> $jenjang_id_baru) {
 															AND (
 															a.`id_jenj_didik` = '35'
 															OR a.`id_jenj_didik` = '32'
+															OR a.`id_jenj_didik` = '36'
 															)")->result();
 
 							foreach ($dpend as $dp) {

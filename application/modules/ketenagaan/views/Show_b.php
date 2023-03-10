@@ -148,7 +148,7 @@ include "koneksi.php";
 
 
 					<?php } ?>
-					<?php if ($data_bid_b_b0002['dupak_no'] && ($role == '1' || $role == '6') && $usulan_status_id == '14') {
+					<?php if ($data_bid_b_b0002['dupak_no'] && ($role == '1' || $role == '6') && ($usulan_status_id == '6' || $usulan_status_id == '8')) {
 
 					?>
 
@@ -209,7 +209,7 @@ include "koneksi.php";
 
 
 					<?php } ?>
-					<?php if ($data_bid_b_b0001['dupak_no'] && ($role == '1' || $role == '6') && $usulan_status_id == '14') {
+					<?php if ($data_bid_b_b0001['dupak_no'] && ($role == '1' || $role == '6') && ($usulan_status_id == '6' || $usulan_status_id == '8')) {
 
 					?>
 
@@ -281,7 +281,7 @@ include "koneksi.php";
 						</div>
 
 					<?php } ?>
-					<?php if ($data_bid_b_b0003['dupak_no'] && ($role == '1' || $role == '6') && $usulan_status_id == '14') {
+					<?php if ($data_bid_b_b0003['dupak_no'] && ($role == '1' || $role == '6') && ($usulan_status_id == '6' || $usulan_status_id == '8')) {
 
 					?>
 
@@ -335,7 +335,7 @@ include "koneksi.php";
 
 
 					<?php } ?>
-					<?php if ($data_bid_b_b0037['dupak_no'] && ($role == '1' || $role == '6') && $usulan_status_id == '14') {
+					<?php if ($data_bid_b_b0037['dupak_no'] && ($role == '1' || $role == '6') && ($usulan_status_id == '6' || $usulan_status_id == '8')) {
 
 					?>
 
@@ -405,7 +405,7 @@ include "koneksi.php";
 
 
 					<?php } ?>
-					<?php if ($data_bid_b_b0004['dupak_no'] && ($role == '1' || $role == '6') && $usulan_status_id == '14') {
+					<?php if ($data_bid_b_b0004['dupak_no'] && ($role == '1' || $role == '6') && ($usulan_status_id == '6' || $usulan_status_id == '8')) {
 
 					?>
 
@@ -460,7 +460,7 @@ include "koneksi.php";
 						</div>
 
 					<?php } ?>
-					<?php if ($data_bid_b_b0025['dupak_no'] && ($role == '1' || $role == '6') && $usulan_status_id == '14') {
+					<?php if ($data_bid_b_b0025['dupak_no'] && ($role == '1' || $role == '6') && ($usulan_status_id == '6' || $usulan_status_id == '8')) {
 
 					?>
 
@@ -518,7 +518,7 @@ include "koneksi.php";
 
 
 					<?php } ?>
-					<?php if ($data_bid_b_b0026['dupak_no'] && ($role == '1' || $role == '6') && $usulan_status_id == '14') {
+					<?php if ($data_bid_b_b0026['dupak_no'] && ($role == '1' || $role == '6') && ($usulan_status_id == '6' || $usulan_status_id == '8')) {
 
 					?>
 
@@ -577,7 +577,7 @@ include "koneksi.php";
 
 
 					<?php } ?>
-					<?php if ($data_bid_b_b0005['dupak_no'] && ($role == '1' || $role == '6') && $usulan_status_id == '14') {
+					<?php if ($data_bid_b_b0005['dupak_no'] && ($role == '1' || $role == '6') && ($usulan_status_id == '6' || $usulan_status_id == '8')) {
 
 					?>
 
@@ -632,7 +632,7 @@ include "koneksi.php";
 
 
 					<?php } ?>
-					<?php if ($data_bid_b_b0006['dupak_no'] && ($role == '1' || $role == '6') && $usulan_status_id == '14') {
+					<?php if ($data_bid_b_b0006['dupak_no'] && ($role == '1' || $role == '6') && ($usulan_status_id == '6' || $usulan_status_id == '8')) {
 
 					?>
 
@@ -690,7 +690,7 @@ include "koneksi.php";
 
 
 					<?php } ?>
-					<?php if ($data_bid_b_b0007['dupak_no'] && ($role == '1' || $role == '6') && $usulan_status_id == '14') {
+					<?php if ($data_bid_b_b0007['dupak_no'] && ($role == '1' || $role == '6') && ($usulan_status_id == '6' || $usulan_status_id == '8')) {
 
 					?>
 
@@ -744,7 +744,7 @@ include "koneksi.php";
 
 
 					<?php } ?>
-					<?php if ($data_bid_b_b0038['dupak_no'] && ($role == '1' || $role == '6') && $usulan_status_id == '14') {
+					<?php if ($data_bid_b_b0038['dupak_no'] && ($role == '1' || $role == '6') && ($usulan_status_id == '6' || $usulan_status_id == '8')) {
 
 					?>
 
@@ -801,7 +801,7 @@ include "koneksi.php";
 
 
 					<?php } ?>
-					<?php if ($data_bid_b_b0024['dupak_no'] && ($role == '1' || $role == '6') && $usulan_status_id == '14') {
+					<?php if ($data_bid_b_b0024['dupak_no'] && ($role == '1' || $role == '6') && ($usulan_status_id == '6' || $usulan_status_id == '8')) {
 
 					?>
 
@@ -882,7 +882,7 @@ include "koneksi.php";
 
 
 					<?php } ?>
-					<?php if ($data_bid_b_b0036['dupak_no'] && ($role == '1' || $role == '6') && $usulan_status_id == '14') {
+					<?php if ($data_bid_b_b0036['dupak_no'] && ($role == '1' || $role == '6') && ($usulan_status_id == '6' || $usulan_status_id == '8')) {
 
 					?>
 
@@ -937,7 +937,7 @@ include "koneksi.php";
 
 
 					<?php } ?>
-					<?php if ($data_bid_b_b0036['dupak_no'] && ($role == '1' || $role == '6') && $usulan_status_id == '14') {
+					<?php if ($data_bid_b_b0036['dupak_no'] && ($role == '1' || $role == '6') && ($usulan_status_id == '6' || $usulan_status_id == '8')) {
 
 					?>
 
@@ -991,7 +991,7 @@ include "koneksi.php";
 
 
 					<?php } ?>
-					<?php if ($data_bid_b_b0034['dupak_no'] && ($role == '1' || $role == '6') && $usulan_status_id == '14') {
+					<?php if ($data_bid_b_b0034['dupak_no'] && ($role == '1' || $role == '6') && ($usulan_status_id == '6' || $usulan_status_id == '8')) {
 
 					?>
 
@@ -1045,7 +1045,7 @@ include "koneksi.php";
 
 
 					<?php } ?>
-					<?php if ($data_bid_b_b0033['dupak_no'] && ($role == '1' || $role == '6') && $usulan_status_id == '14') {
+					<?php if ($data_bid_b_b0033['dupak_no'] && ($role == '1' || $role == '6') && ($usulan_status_id == '6' || $usulan_status_id == '8')) {
 
 					?>
 
@@ -1113,7 +1113,7 @@ include "koneksi.php";
 
 
 					<?php } ?>
-					<?php if ($data_bid_b_b0031['dupak_no'] && ($role == '1' || $role == '6') && $usulan_status_id == '14') {
+					<?php if ($data_bid_b_b0031['dupak_no'] && ($role == '1' || $role == '6') && ($usulan_status_id == '6' || $usulan_status_id == '8')) {
 
 					?>
 
@@ -1167,7 +1167,7 @@ include "koneksi.php";
 
 
 					<?php } ?>
-					<?php if ($data_bid_b_b0032['dupak_no'] && ($role == '1' || $role == '6') && $usulan_status_id == '14') {
+					<?php if ($data_bid_b_b0032['dupak_no'] && ($role == '1' || $role == '6') && ($usulan_status_id == '6' || $usulan_status_id == '8')) {
 
 					?>
 
@@ -1235,7 +1235,7 @@ include "koneksi.php";
 
 
 					<?php } ?>
-					<?php if ($data_bid_b_b0029['dupak_no'] && ($role == '1' || $role == '6') && $usulan_status_id == '14') {
+					<?php if ($data_bid_b_b0029['dupak_no'] && ($role == '1' || $role == '6') && ($usulan_status_id == '6' || $usulan_status_id == '8')) {
 
 					?>
 
@@ -1289,7 +1289,7 @@ include "koneksi.php";
 
 
 					<?php } ?>
-					<?php if ($data_bid_b_b0030['dupak_no'] && ($role == '1' || $role == '6') && $usulan_status_id == '14') {
+					<?php if ($data_bid_b_b0030['dupak_no'] && ($role == '1' || $role == '6') && ($usulan_status_id == '6' || $usulan_status_id == '8')) {
 
 					?>
 
@@ -1356,7 +1356,7 @@ include "koneksi.php";
 
 
 					<?php } ?>
-					<?php if ($data_bid_b_b0027['dupak_no'] && ($role == '1' || $role == '6') && $usulan_status_id == '14') {
+					<?php if ($data_bid_b_b0027['dupak_no'] && ($role == '1' || $role == '6') && ($usulan_status_id == '6' || $usulan_status_id == '8')) {
 
 					?>
 
@@ -1410,7 +1410,7 @@ include "koneksi.php";
 
 
 					<?php } ?>
-					<?php if ($data_bid_b_b0028['dupak_no'] && ($role == '1' || $role == '6') && $usulan_status_id == '14') {
+					<?php if ($data_bid_b_b0028['dupak_no'] && ($role == '1' || $role == '6') && ($usulan_status_id == '6' || $usulan_status_id == '8')) {
 
 					?>
 
@@ -1466,7 +1466,7 @@ include "koneksi.php";
 
 
 					<?php } ?>
-					<?php if ($data_bid_b_b0011['dupak_no'] && ($role == '1' || $role == '6') && $usulan_status_id == '14') {
+					<?php if ($data_bid_b_b0011['dupak_no'] && ($role == '1' || $role == '6') && ($usulan_status_id == '6' || $usulan_status_id == '8')) {
 
 					?>
 
@@ -1526,7 +1526,7 @@ include "koneksi.php";
 
 
 					<?php } ?>
-					<?php if ($data_bid_b_b0012['dupak_no'] && ($role == '1' || $role == '6') && $usulan_status_id == '14') {
+					<?php if ($data_bid_b_b0012['dupak_no'] && ($role == '1' || $role == '6') && ($usulan_status_id == '6' || $usulan_status_id == '8')) {
 
 					?>
 
@@ -1583,7 +1583,7 @@ include "koneksi.php";
 
 
 					<?php } ?>
-					<?php if ($data_bid_b_b0013['dupak_no'] && ($role == '1' || $role == '6') && $usulan_status_id == '14') {
+					<?php if ($data_bid_b_b0013['dupak_no'] && ($role == '1' || $role == '6') && ($usulan_status_id == '6' || $usulan_status_id == '8')) {
 
 					?>
 
@@ -1641,7 +1641,7 @@ include "koneksi.php";
 
 
 					<?php } ?>
-					<?php if ($data_bid_b_b0014['dupak_no'] && ($role == '1' || $role == '6') && $usulan_status_id == '14') {
+					<?php if ($data_bid_b_b0014['dupak_no'] && ($role == '1' || $role == '6') && ($usulan_status_id == '6' || $usulan_status_id == '8')) {
 
 					?>
 
@@ -1717,7 +1717,7 @@ include "koneksi.php";
 
 
 					<?php } ?>
-					<?php if ($data_bid_b_b0015['dupak_no'] && ($role == '1' || $role == '6') && $usulan_status_id == '14') {
+					<?php if ($data_bid_b_b0015['dupak_no'] && ($role == '1' || $role == '6') && ($usulan_status_id == '6' || $usulan_status_id == '8')) {
 
 					?>
 
@@ -1774,7 +1774,7 @@ include "koneksi.php";
 
 
 					<?php } ?>
-					<?php if ($data_bid_b_b0016['dupak_no'] && ($role == '1' || $role == '6') && $usulan_status_id == '14') {
+					<?php if ($data_bid_b_b0016['dupak_no'] && ($role == '1' || $role == '6') && ($usulan_status_id == '6' || $usulan_status_id == '8')) {
 
 					?>
 
@@ -1831,7 +1831,7 @@ include "koneksi.php";
 
 
 					<?php } ?>
-					<?php if ($data_bid_b_b0017['dupak_no'] && ($role == '1' || $role == '6') && $usulan_status_id == '14') {
+					<?php if ($data_bid_b_b0017['dupak_no'] && ($role == '1' || $role == '6') && ($usulan_status_id == '6' || $usulan_status_id == '8')) {
 
 					?>
 
@@ -1887,7 +1887,7 @@ include "koneksi.php";
 
 
 					<?php } ?>
-					<?php if ($data_bid_b_b0018['dupak_no'] && ($role == '1' || $role == '6') && $usulan_status_id == '14') {
+					<?php if ($data_bid_b_b0018['dupak_no'] && ($role == '1' || $role == '6') && ($usulan_status_id == '6' || $usulan_status_id == '8')) {
 
 					?>
 
@@ -1946,7 +1946,7 @@ include "koneksi.php";
 
 
 					<?php } ?>
-					<?php if ($data_bid_b_b0019['dupak_no'] && ($role == '1' || $role == '6') && $usulan_status_id == '14') {
+					<?php if ($data_bid_b_b0019['dupak_no'] && ($role == '1' || $role == '6') && ($usulan_status_id == '6' || $usulan_status_id == '8')) {
 
 					?>
 
@@ -2006,7 +2006,7 @@ include "koneksi.php";
 
 
 					<?php } ?>
-					<?php if ($data_bid_b_b0020['dupak_no'] && ($role == '1' || $role == '6') && $usulan_status_id == '14') {
+					<?php if ($data_bid_b_b0020['dupak_no'] && ($role == '1' || $role == '6') && ($usulan_status_id == '6' || $usulan_status_id == '8')) {
 
 					?>
 
@@ -2081,7 +2081,7 @@ include "koneksi.php";
 
 
 					<?php } ?>
-					<?php if ($data_bid_b_b0021['dupak_no'] && ($role == '1' || $role == '6') && $usulan_status_id == '14') {
+					<?php if ($data_bid_b_b0021['dupak_no'] && ($role == '1' || $role == '6') && ($usulan_status_id == '6' || $usulan_status_id == '8')) {
 
 					?>
 
@@ -2137,7 +2137,7 @@ include "koneksi.php";
 
 
 					<?php } ?>
-					<?php if ($data_bid_b_b0022['dupak_no'] && ($role == '1' || $role == '6') && $usulan_status_id == '14') {
+					<?php if ($data_bid_b_b0022['dupak_no'] && ($role == '1' || $role == '6') && ($usulan_status_id == '6' || $usulan_status_id == '8')) {
 
 					?>
 
@@ -2195,7 +2195,7 @@ include "koneksi.php";
 
 
 					<?php } ?>
-					<?php if ($data_bid_b_b0023['dupak_no'] && ($role == '1' || $role == '6') && $usulan_status_id == '14') {
+					<?php if ($data_bid_b_b0023['dupak_no'] && ($role == '1' || $role == '6') && ($usulan_status_id == '6' || $usulan_status_id == '8')) {
 
 					?>
 

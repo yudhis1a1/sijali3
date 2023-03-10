@@ -1618,6 +1618,7 @@ class Ketenagaan extends MX_Controller
 		$tmt_jab_baru_pak = $this->input->post('tmt_jab_baru_pak');
 		$kum_baru = $this->input->post('kum_baru');
 		$karpeg =  $this->anti_xss($this->input->post('karpeg'), TRUE);
+		$nip =  $this->anti_xss($this->input->post('nip'), TRUE);
 		$no_log = date("ymdHis");
 
 
@@ -1637,7 +1638,7 @@ class Ketenagaan extends MX_Controller
 			  values ('$no_dosen','$no_usulan','$kodegol_pak','$golongan_tgl','$jab_lama_pak','$tmt_jab_lama_pak','$tmt_jab_dosen','$kum_lama','$fakultas','$prodi_homebase','$lama_th_pak','$lama_bln_pak','$baru_th_pak','$baru_bln_pak','$jab_baru_pak','$tmt_jab_baru_pak','$kum_baru','$no_log','$user','$g_depan','$g_belakang')";
 		$this->db->query($rwy_pak);
 
-		$karpeg = "UPDATE dosens SET karpeg='$karpeg' where no='$no_dosen'";
+		$karpeg = "UPDATE dosens SET karpeg='$karpeg', nip='$nip' where no='$no_dosen'";
 		$this->db->query($karpeg);
 		$arr = count($id_jen_pak);
 
@@ -1701,6 +1702,7 @@ class Ketenagaan extends MX_Controller
 		$tmt_jab_baru_pak = $this->input->post('tmt_jab_baru_pak');
 		$kum_baru = $this->input->post('kum_baru');
 		$karpeg =  $this->anti_xss($this->input->post('karpeg'), TRUE);
+		$nip =  $this->anti_xss($this->input->post('nip'), TRUE);
 		// end
 		$no_log = date("ymdHis");
 		$keterangan = "Tanggal PAK direvisi oleh:" . $user;
@@ -1715,7 +1717,7 @@ class Ketenagaan extends MX_Controller
 		$rwy_pak = "REPLACE INTO rwy_pak(no_dosen,no_usulan,kodegol_pak,golongan_tgl_pak,jab_lama_pak,tmt_jab_lama_pak,tmt_jab_dosen,kum_lama,fakultas_pak,prodi_homebase_pak,lama_tahun_pak,lama_bulan_pak,baru_tahun_pak,baru_bulan_pak,jab_baru_pak,tmt_jab_baru_pak,kum_baru,last_update,user_updater,gelar_depan,gelar_belakang)
 			  values ('$no_dosen','$no_usulan','$kodegol_pak','$golongan_tgl','$jab_lama_pak','$tmt_jab_lama_pak','$tmt_jab_dosen','$kum_lama','$fakultas','$prodi_homebase','$lama_th_pak','$lama_bln_pak','$baru_th_pak','$baru_bln_pak','$jab_baru_pak','$tmt_jab_baru_pak','$kum_baru','$no_log','$user','$g_depan','$g_belakang')";
 		$this->db->query($rwy_pak);
-		$karpeg = "UPDATE dosens SET karpeg='$karpeg' where no='$no_dosen'";
+		$karpeg = "UPDATE dosens SET karpeg='$karpeg',nip='$nip' where no='$no_dosen'";
 		$this->db->query($karpeg);
 
 		$arr = count($id_jen_pak);
