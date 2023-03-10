@@ -85,7 +85,7 @@ class Login extends MX_Controller
 
 							$this->db->query("INSERT INTO log_pending_penilaian(user_no,tgl_eksekusi,created_at)VALUES('$user_no',NOW(),NOW())");
 
-							// ========= awal jika tim penilai sudah pernah perpanjang batas penilaian ==========
+							// ========= awal jika tim penilai sudah melebihi batas penilaian ==========
 							$pe 	= $this->db->query("SELECT
 															`no`,
 															`user_penilai_no`,
@@ -93,8 +93,8 @@ class Login extends MX_Controller
 														FROM
 															`usulans`
 														WHERE `batas_penilaian_tgl` < CURDATE()
-															AND usulan_status_id = '5'
-															AND status_penilaian='1'");
+															AND usulan_status_id = '5'");
+
 							foreach ($pe->result() as $pen) {
 								$this->db->query("INSERT INTO `rwy_pending_penilaian` (
 														`usulan_no`,
@@ -117,27 +117,8 @@ class Login extends MX_Controller
 												user_updated_no	='123456789',
 												`ket_tambah_penilaian` = ''
 												WHERE usulan_status_id = '5'
-												AND `batas_penilaian_tgl` < CURDATE()
-												AND status_penilaian='1'");
-							// ======== akhir jika tim penilai sudah pernah perpanjang batas penilaian ========== 
-
-							// ======== awal jika tim penilai belum pernah perpanjang batas penilaian ===========
-							$p	= $pe->row();
-
-							$tgl2 = date('Y-m-d', strtotime('+9days', strtotime($p->batas_penilaian_tgl)));
-
-
-							$this->db->query("UPDATE
-												`usulans`
-												SET
-												`status_penilaian` = '1',
-												user_updated_no	='123456789',
-												`ket_tambah_penilaian` = 'Penambahan batas tanggal penilaian oleh sistem',
-												batas_penilaian_tgl='$tgl2'
-												WHERE usulan_status_id = '5'
-												AND `batas_penilaian_tgl` < CURDATE()
-												AND (status_penilaian='' OR status_penilaian IS NULL)");
-							// ======== akhir jika tim penilai belum pernah perpanjang batas penilaian ===========
+												AND `batas_penilaian_tgl` < CURDATE()");
+							// ======== akhir jika tim penilai sudah melebihi batas penilaian ========== 
 						}
 
 						$session_data = array(

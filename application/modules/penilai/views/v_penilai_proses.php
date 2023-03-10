@@ -67,16 +67,16 @@
 										if ($row->batas_penilaian_tgl == '') {
 											echo "0 Hari";
 										} elseif ($durasi == '0') {
-											echo "Hari Terakhir Penilaian";
+											echo "<b>Hari Terakhir Penilaian</b>";
 										?>
-											<br>
-											<a href="#" data-toggle="modal" data-target="#formModal<?= $row->no ?>" class="btn waves-effect waves-light btn-sm btn-success">[Perpanjang Waktu Penilaian]</a>
+											<!-- <br>
+											<a href="#" data-toggle="modal" data-target="#formModal<?= $row->no ?>" class="btn waves-effect waves-light btn-sm btn-success">[Perpanjang Waktu Penilaian]</a> -->
 										<?php
 										} elseif ($row->status_penilaian == '1') {
 											echo "$durasi Hari";
 										?>
-											<br>
-											<a href="#" data-toggle="modal" data-target="#ket<?= $row->no ?>" class="btn waves-effect waves-light btn-sm btn-primary">[Keterangan]</a>
+											<!-- <br>
+											<a href="#" data-toggle="modal" data-target="#ket<?= $row->no ?>" class="btn waves-effect waves-light btn-sm btn-primary">[Keterangan]</a> -->
 										<?php
 										} else {
 											echo "$durasi Hari";

@@ -2060,11 +2060,11 @@ class Usulan extends MX_Controller
 		$no 			= date("ymdHis") . $username;
 
 		$cari_jml_rwy = $this->db->query("SELECT
-													COUNT(*) AS jml_rwy
-												FROM
-													`rwy_pend_formal`
-												WHERE
-													`id_sdm`='$dosen_no'")->row();
+											COUNT(*) AS jml_rwy
+										FROM
+											`rwy_pend_formal`
+										WHERE
+											`id_sdm`='$dosen_no'")->row();
 		$jml_rwy = $cari_jml_rwy->jml_rwy;
 
 		$cari_jml_file_rwy = $this->db->query("SELECT
@@ -2085,23 +2085,22 @@ class Usulan extends MX_Controller
 		}
 
 		$tgl_ijazah = $this->db->query("SELECT
-											  a.`no_dosen`,
-											  a.`id_rwy_didik_formal`,
-											  a.`tgl_ijazah_pak`
-											FROM
-											  `rwy_pend_pak` AS a,
-											  `rwy_pend_formal` AS b
-											WHERE a.`id_rwy_didik_formal` = b.`id_rwy_didik_formal`
-											  AND a.`tgl_ijazah_pak` = '0000-00-00'
-											  AND a.`no_dosen` = '$dosen_no'")->row();
+											a.`no_dosen`,
+											a.`id_rwy_didik_formal`,
+											a.`tgl_ijazah_pak`
+										FROM
+											`rwy_pend_pak` AS a,
+											`rwy_pend_formal` AS b
+										WHERE a.`id_rwy_didik_formal` = b.`id_rwy_didik_formal`
+											AND a.`tgl_ijazah_pak` = '0000-00-00'
+											AND a.`no_dosen` = '$dosen_no'")->row();
 		if ($tgl_ijazah > 0) {
 			$this->session->set_flashdata('error', 'Tanggal penerbitan ijazah masih belum diupdate');
 			redirect(base_url() . 'usulan/usulan/show_pendidikan/' . $no_usulan);
 			die;
 		}
 
-		// pengajuan utk usulan baru
-		if ($usulan_status == '3') {
+		if ($usulan_status == '3') { //utk update status usulan baru dari operator pt
 			$mtk_pak	= $this->db->query("SELECT mtk FROM `usulan_matkuls` WHERE `usulan_no`='$no_usulan';")->num_rows();
 			$st 		= $this->db->query("SELECT no_surat,tgl_surat FROM usulans WHERE no='$no_usulan'")->row();
 
@@ -2117,9 +2116,19 @@ class Usulan extends MX_Controller
 				die;
 			}
 
+			$cad = $this->db->query("SELECT no FROM usulans WHERE status_revisi='1' AND no='$no_usulan'")->num_rows();
+			if ($cad > 0) { //jika usulan dosen direvisi dan dari status validasi PAK & SK
+				$usulan_status_id_baru = '6';
+			} else {
+				$this->db->query("UPDATE usulan_dupaks SET kum_penilai_baru='0' WHERE usulan_no='$no_usulan'");
+				$this->db->query("UPDATE usulan_dupak_details SET kum_penilai='0',kum_penilai_keterangan='' WHERE usulan_no='$no_usulan'");
+
+				$usulan_status_id_baru = $usulan_status;
+			}
+
 			$where = array('no' => $no_usulan);
 			$data = array(
-				'usulan_status_id' => $usulan_status,
+				'usulan_status_id' => $usulan_status_id_baru,
 				'user_updated_no' => $this->session->userdata('no'),
 				'updated_at' => $tgl_update
 			);
@@ -2128,7 +2137,7 @@ class Usulan extends MX_Controller
 			$data_riwayat = array(
 				'no' => $no,
 				'usulan_no' => $no_usulan,
-				'usulan_status_id' => $usulan_status,
+				'usulan_status_id' => $usulan_status_id_baru,
 				'keterangan_pengusul' => addslashes($usulan_ket),
 				'user_no' => $this->session->userdata('no'),
 				'created_at' => $tgl_create,
@@ -2136,12 +2145,9 @@ class Usulan extends MX_Controller
 			);
 			$this->draft->insert_data($data_riwayat, 'usulan_riwayat_statuses');
 
-			$this->db->query("UPDATE usulan_dupaks SET kum_penilai_baru='0' WHERE usulan_no='$no_usulan'");
-			$this->db->query("UPDATE usulan_dupak_details SET kum_penilai='0',kum_penilai_keterangan='' WHERE usulan_no='$no_usulan'");
-
 			$this->session->set_flashdata('flash', 'Diproses');
 			redirect(base_url() . 'usulan/usulan/proses');
-		} else { //utk draft revisi dan utk pengajuan usulan baru
+		} else { //utk draft revisi dan utk update status pengajuan usulan baru dari dosen
 			$where = array('no' => $no_usulan);
 			$data = array(
 				'usulan_status_id' => $usulan_status,

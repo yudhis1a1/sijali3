@@ -1434,7 +1434,7 @@ class Ketenagaan extends MX_Controller
 		if ($count == 0) {
 			if ($id_status == '5') {
 				$tgl = date('Y-m-d');
-				$tgl2 = date('Y-m-d', strtotime('+9days', strtotime($tgl)));
+				$tgl2 = date('Y-m-d', strtotime('+13days', strtotime($tgl)));
 
 				$update = "UPDATE
 								usulans
@@ -1448,12 +1448,19 @@ class Ketenagaan extends MX_Controller
 							WHERE `no` = '$no_usulan'";
 				$this->db->query($update);
 			} else {
+				if ($statusnya == 'validasi_pak' && $id_status == '2') { //jika revisi dari validasi PAK dan SK
+					$status_revisi = '1';
+				} else {
+					$status_revisi = '0';
+				}
+
 				$update = "UPDATE
 								usulans
 							SET
 								usulan_status_id = '$id_status',
 								user_ketenagaan_no = '$user',
 								user_updated_no = '$userno',
+								status_revisi=$status_revisi,
 								user_ketenagaan_tgl = NOW()
 							WHERE NO = '$no_usulan'";
 				$this->db->query($update);
